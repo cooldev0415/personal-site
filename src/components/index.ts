@@ -1,5 +1,5 @@
 export * from './icons';
 export * from './canvas';
-export * from './navbar';
+export * from './header';
 export * from './style';
 export * from './hoc';

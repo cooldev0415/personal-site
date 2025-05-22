@@ -4,7 +4,7 @@ import { ComputersCanvas, styles } from "@/components";
 import Image from "next/image";
 import BackgroudImage from '../../../../../public/background.gif';
 
-const Hero = () => {
+export const HomeHero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-center`}>
       <Image src={BackgroudImage} fill alt="" className="absolute object-cover opacity-10" priority />
@@ -18,7 +18,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className='text-[#915EFF]'>Milos</span>
+            Hi, I am <span className='text-[#915EFF]'>Joseph Lingad</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Full Stack Engineer
@@ -48,5 +48,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

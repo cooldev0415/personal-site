@@ -1,4 +1,4 @@
-import ComputersCanvas from './computers-canvas';
-import EarthCanvas from './earth-canvas';
-import StarsCanvas from './stars-canvas';
+import ComputersCanvas from './ComputersCanvas';
+import EarthCanvas from './EarthCanvas';
+import StarsCanvas from './StarsCanvas';
 export { ComputersCanvas, EarthCanvas, StarsCanvas }

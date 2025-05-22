@@ -1,5 +1,5 @@
 import React from "react";
-import { WelcomePage } from "./components";
+import { WelcomePage } from "./welcome/components";
 
 const Welcome: React.FC = () => {
   return(

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { navLinks } from "@/constants";
 import LogoIcon from '../../public/logo.png';
 
-export const Navbar: React.FC = () => {
+export const Header: React.FC = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -34,8 +34,8 @@ export const Navbar: React.FC = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
+      <div className='w-full flex flex-row-reverse justify-between items-center max-w-7xl mx-auto'>
+        {/* <Link
           href='/welcome'
           className='flex items-center gap-2'
           onClick={() => {
@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
             Milos &nbsp;
             <span className='sm:block hidden'> Zdravkovic </span>
           </p>
-        </Link>
+        </Link> */}
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
